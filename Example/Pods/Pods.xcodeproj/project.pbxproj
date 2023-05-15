@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0977ED5D03E7DE3DC71ED2B671195A13 /* TYLinkLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC02292215745199A2FE9E29419A2AD /* TYLinkLabel-dummy.m */; };
+		16DE644BC8B07761C52F92C1CA728372 /* Pods-TYLinkLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E14B005449CB391F23F57AA9CE15B4F /* Pods-TYLinkLabel_Example-dummy.m */; };
+		1790CA23F85F52D10BE5A2F3F6E8B550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		294B9BFB13F31DC054F6C959C1AA2B59 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2121735A57B95CE718EE809B09525C /* ReplaceMe.swift */; };
+		2CE9C8B25D7575351216CB5756DA049D /* TYLinkLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9787E397B65131C92F4852236EFCEEBF /* TYLinkLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36384B25614DDD6064BC7FF01604804D /* Pods-TYLinkLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6A200F5E4FAF606C39FBDABC347532 /* Pods-TYLinkLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F101A4314EB609AB990C42CBCDD7B99 /* Pods-TYLinkLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E0D9CB6CC11C779EB9544C3BD0DB3E /* Pods-TYLinkLabel_Tests-dummy.m */; };
+		6B922668C90403F6922A24D9EBC406E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8BA946A67E651770C45F099E8F55F1BE /* Pods-TYLinkLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E63B9D69E547E48152025EC7B1F23A8B /* Pods-TYLinkLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAABE757B7F9664BFAABC81FFCF0B46E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA987BE635AD546346C49BF832B5849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57EB6E9193318A3A5F46AE278DA89977;
+			remoteInfo = "Pods-TYLinkLabel_Example";
+		};
+		E17B8531F511CD72C2A6A6832EA63462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33FEAA4D4455EE40C2D70B43FDD4203F;
+			remoteInfo = TYLinkLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09758C43B763975F70A8A97B72CA6337 /* Pods-TYLinkLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TYLinkLabel_Tests"; path = Pods_TYLinkLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAF70E44E02F9FCD753A2E6D23CD917 /* Pods-TYLinkLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYLinkLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		15C2262E8A650A86EF531D9349EEF2D0 /* TYLinkLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYLinkLabel.debug.xcconfig; sourceTree = "<group>"; };
+		182C80E7A132162B803DAB6AD2BD5ECD /* Pods-TYLinkLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYLinkLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		188757E49E8696E324CB60C83A2FA58E /* Pods-TYLinkLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYLinkLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F86A80E7B9B7836FD023BB94F5CF048 /* Pods-TYLinkLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYLinkLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2F94478AFE3DEDC001DC6C0E132226E5 /* TYLinkLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYLinkLabel.release.xcconfig; sourceTree = "<group>"; };
+		31E0D9CB6CC11C779EB9544C3BD0DB3E /* Pods-TYLinkLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYLinkLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E14B005449CB391F23F57AA9CE15B4F /* Pods-TYLinkLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYLinkLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		40AF478A407DE71F07450EB93E73BCFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		48458070168C8B98A5FE0147C734C66C /* Pods-TYLinkLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYLinkLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B2121735A57B95CE718EE809B09525C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TYLinkLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		640FDE804645E84D023CE23EF5C77B2E /* TYLinkLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYLinkLabel; path = TYLinkLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76E744E1B304181E1148C1125B439929 /* Pods-TYLinkLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYLinkLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FFD08C6EE830DA9A04116B55709B73D /* Pods-TYLinkLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYLinkLabel_Example.modulemap"; sourceTree = "<group>"; };
+		81EF989D9BB4482AA1A7D394F2BA4BFD /* Pods-TYLinkLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYLinkLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		87DB8FD955F274723F284F13F96FBF05 /* Pods-TYLinkLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYLinkLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		930ECEA232C287146AADC71B0399DAA8 /* TYLinkLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYLinkLabel-prefix.pch"; sourceTree = "<group>"; };
+		9787E397B65131C92F4852236EFCEEBF /* TYLinkLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYLinkLabel-umbrella.h"; sourceTree = "<group>"; };
+		9A4A29D3EDBB1594A964B1ED656CAF35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAC02292215745199A2FE9E29419A2AD /* TYLinkLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYLinkLabel-dummy.m"; sourceTree = "<group>"; };
+		BB1347D927B0475C85472AD560CD5657 /* TYLinkLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYLinkLabel.modulemap; sourceTree = "<group>"; };
+		CE8F2AAEB648D4A92F24F306238194A9 /* TYLinkLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYLinkLabel-Info.plist"; sourceTree = "<group>"; };
+		CFE1DE37A71F612B78FFD30BB9603532 /* Pods-TYLinkLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYLinkLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D4840A6B5E3D0E08B4C18F4BD5798010 /* Pods-TYLinkLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYLinkLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		E105FA22764AD5807A21F7E5CB80CAEF /* Pods-TYLinkLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYLinkLabel_Tests-Info.plist"; sourceTree = "<group>"; };
+		E63B9D69E547E48152025EC7B1F23A8B /* Pods-TYLinkLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYLinkLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ED6A200F5E4FAF606C39FBDABC347532 /* Pods-TYLinkLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYLinkLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		F58D45039A17AEA95979A60B9E1D179F /* TYLinkLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TYLinkLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDB767C9CC0F91C268C3D472B1F5F474 /* Pods-TYLinkLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYLinkLabel_Example-Info.plist"; sourceTree = "<group>"; };
+		FE31A6C895A498D79F0CDAD1A1902553 /* Pods-TYLinkLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TYLinkLabel_Example"; path = Pods_TYLinkLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A07DF52488647E50464880B4B554F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAABE757B7F9664BFAABC81FFCF0B46E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224CEEB0FB451172F8B269EA573FE269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B922668C90403F6922A24D9EBC406E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC984BE6A6DF9AB1358E1F656D879B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1790CA23F85F52D10BE5A2F3F6E8B550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E7AD7D94590AD8FD0A190EA1949872 /* Pods-TYLinkLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4840A6B5E3D0E08B4C18F4BD5798010 /* Pods-TYLinkLabel_Tests.modulemap */,
+				188757E49E8696E324CB60C83A2FA58E /* Pods-TYLinkLabel_Tests-acknowledgements.markdown */,
+				182C80E7A132162B803DAB6AD2BD5ECD /* Pods-TYLinkLabel_Tests-acknowledgements.plist */,
+				31E0D9CB6CC11C779EB9544C3BD0DB3E /* Pods-TYLinkLabel_Tests-dummy.m */,
+				E105FA22764AD5807A21F7E5CB80CAEF /* Pods-TYLinkLabel_Tests-Info.plist */,
+				E63B9D69E547E48152025EC7B1F23A8B /* Pods-TYLinkLabel_Tests-umbrella.h */,
+				76E744E1B304181E1148C1125B439929 /* Pods-TYLinkLabel_Tests.debug.xcconfig */,
+				0FAF70E44E02F9FCD753A2E6D23CD917 /* Pods-TYLinkLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-TYLinkLabel_Tests";
+			path = "Target Support Files/Pods-TYLinkLabel_Tests";
+			sourceTree = "<group>";
+		};
+		37CD9C36B92FA26AFEBB2F4621D66AA4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62A7B94F6347AD6D5CB647198FCB9F9B /* TYLinkLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		47E902B5A4169235AF22CCA76D98A528 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80CC479EA91A5677E6E859B27C3B315C /* Pods-TYLinkLabel_Example */,
+				07E7AD7D94590AD8FD0A190EA1949872 /* Pods-TYLinkLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62A7B94F6347AD6D5CB647198FCB9F9B /* TYLinkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4B2121735A57B95CE718EE809B09525C /* ReplaceMe.swift */,
+				DE3D294BCD9C779009711F0D94EB3A19 /* Pod */,
+				D37A81CA34868BE84FA96FBA9C7DD82E /* Support Files */,
+			);
+			name = TYLinkLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		80CC479EA91A5677E6E859B27C3B315C /* Pods-TYLinkLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7FFD08C6EE830DA9A04116B55709B73D /* Pods-TYLinkLabel_Example.modulemap */,
+				48458070168C8B98A5FE0147C734C66C /* Pods-TYLinkLabel_Example-acknowledgements.markdown */,
+				87DB8FD955F274723F284F13F96FBF05 /* Pods-TYLinkLabel_Example-acknowledgements.plist */,
+				3E14B005449CB391F23F57AA9CE15B4F /* Pods-TYLinkLabel_Example-dummy.m */,
+				81EF989D9BB4482AA1A7D394F2BA4BFD /* Pods-TYLinkLabel_Example-frameworks.sh */,
+				FDB767C9CC0F91C268C3D472B1F5F474 /* Pods-TYLinkLabel_Example-Info.plist */,
+				ED6A200F5E4FAF606C39FBDABC347532 /* Pods-TYLinkLabel_Example-umbrella.h */,
+				CFE1DE37A71F612B78FFD30BB9603532 /* Pods-TYLinkLabel_Example.debug.xcconfig */,
+				1F86A80E7B9B7836FD023BB94F5CF048 /* Pods-TYLinkLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-TYLinkLabel_Example";
+			path = "Target Support Files/Pods-TYLinkLabel_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				37CD9C36B92FA26AFEBB2F4621D66AA4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F84B937751D2450347EDBE58DF9F6EA8 /* Products */,
+				47E902B5A4169235AF22CCA76D98A528 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37A81CA34868BE84FA96FBA9C7DD82E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB1347D927B0475C85472AD560CD5657 /* TYLinkLabel.modulemap */,
+				AAC02292215745199A2FE9E29419A2AD /* TYLinkLabel-dummy.m */,
+				CE8F2AAEB648D4A92F24F306238194A9 /* TYLinkLabel-Info.plist */,
+				930ECEA232C287146AADC71B0399DAA8 /* TYLinkLabel-prefix.pch */,
+				9787E397B65131C92F4852236EFCEEBF /* TYLinkLabel-umbrella.h */,
+				15C2262E8A650A86EF531D9349EEF2D0 /* TYLinkLabel.debug.xcconfig */,
+				2F94478AFE3DEDC001DC6C0E132226E5 /* TYLinkLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TYLinkLabel";
+			sourceTree = "<group>";
+		};
+		DE3D294BCD9C779009711F0D94EB3A19 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				40AF478A407DE71F07450EB93E73BCFC /* LICENSE */,
+				9A4A29D3EDBB1594A964B1ED656CAF35 /* README.md */,
+				F58D45039A17AEA95979A60B9E1D179F /* TYLinkLabel.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F84B937751D2450347EDBE58DF9F6EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE31A6C895A498D79F0CDAD1A1902553 /* Pods-TYLinkLabel_Example */,
+				09758C43B763975F70A8A97B72CA6337 /* Pods-TYLinkLabel_Tests */,
+				640FDE804645E84D023CE23EF5C77B2E /* TYLinkLabel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6AFF830A5EA0673695F838E8641750F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA946A67E651770C45F099E8F55F1BE /* Pods-TYLinkLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC9E8470341B96E425F6C48706A702C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE9C8B25D7575351216CB5756DA049D /* TYLinkLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDF7F6CB27C18FD8B6976F2E7FBD540 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36384B25614DDD6064BC7FF01604804D /* Pods-TYLinkLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33FEAA4D4455EE40C2D70B43FDD4203F /* TYLinkLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A92A6719DB68EA3A89D24E480E501B /* Build configuration list for PBXNativeTarget "TYLinkLabel" */;
+			buildPhases = (
+				AFC9E8470341B96E425F6C48706A702C /* Headers */,
+				0FAEE56203F4E9C0E223048EEFBB44C3 /* Sources */,
+				224CEEB0FB451172F8B269EA573FE269 /* Frameworks */,
+				016C3CDA7172FFF45AFE75C07638F6D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYLinkLabel;
+			productName = TYLinkLabel;
+			productReference = 640FDE804645E84D023CE23EF5C77B2E /* TYLinkLabel */;
+			productType = "com.apple.product-type.framework";
+		};
+		57EB6E9193318A3A5F46AE278DA89977 /* Pods-TYLinkLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC0A8041DBDCF23A9101306DFAC7E74 /* Build configuration list for PBXNativeTarget "Pods-TYLinkLabel_Example" */;
+			buildPhases = (
+				EDDF7F6CB27C18FD8B6976F2E7FBD540 /* Headers */,
+				131AFFD800318020D81ADEEBE8852601 /* Sources */,
+				0A07DF52488647E50464880B4B554F2D /* Frameworks */,
+				8458FEABA685C78C062611B6EA0BCAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				194A12F8666B086FAD1A8C3AE1429823 /* PBXTargetDependency */,
+			);
+			name = "Pods-TYLinkLabel_Example";
+			productName = Pods_TYLinkLabel_Example;
+			productReference = FE31A6C895A498D79F0CDAD1A1902553 /* Pods-TYLinkLabel_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F84D2E7085002E3A7A0FFD6966CE3FC6 /* Pods-TYLinkLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC0C64E45E851599D2C25899D2C60C3 /* Build configuration list for PBXNativeTarget "Pods-TYLinkLabel_Tests" */;
+			buildPhases = (
+				6AFF830A5EA0673695F838E8641750F0 /* Headers */,
+				336455D0BEA4BEE3918E84EF81A159B3 /* Sources */,
+				BC984BE6A6DF9AB1358E1F656D879B45 /* Frameworks */,
+				B8967BC7ACEB851CF153614C80A1C471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0C94D579561E5455C323E82DF2418F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-TYLinkLabel_Tests";
+			productName = Pods_TYLinkLabel_Tests;
+			productReference = 09758C43B763975F70A8A97B72CA6337 /* Pods-TYLinkLabel_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F84B937751D2450347EDBE58DF9F6EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57EB6E9193318A3A5F46AE278DA89977 /* Pods-TYLinkLabel_Example */,
+				F84D2E7085002E3A7A0FFD6966CE3FC6 /* Pods-TYLinkLabel_Tests */,
+				33FEAA4D4455EE40C2D70B43FDD4203F /* TYLinkLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016C3CDA7172FFF45AFE75C07638F6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458FEABA685C78C062611B6EA0BCAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8967BC7ACEB851CF153614C80A1C471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FAEE56203F4E9C0E223048EEFBB44C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294B9BFB13F31DC054F6C959C1AA2B59 /* ReplaceMe.swift in Sources */,
+				0977ED5D03E7DE3DC71ED2B671195A13 /* TYLinkLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131AFFD800318020D81ADEEBE8852601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DE644BC8B07761C52F92C1CA728372 /* Pods-TYLinkLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336455D0BEA4BEE3918E84EF81A159B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F101A4314EB609AB990C42CBCDD7B99 /* Pods-TYLinkLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		194A12F8666B086FAD1A8C3AE1429823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYLinkLabel;
+			target = 33FEAA4D4455EE40C2D70B43FDD4203F /* TYLinkLabel */;
+			targetProxy = E17B8531F511CD72C2A6A6832EA63462 /* PBXContainerItemProxy */;
+		};
+		E0C94D579561E5455C323E82DF2418F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TYLinkLabel_Example";
+			target = 57EB6E9193318A3A5F46AE278DA89977 /* Pods-TYLinkLabel_Example */;
+			targetProxy = DCA987BE635AD546346C49BF832B5849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026A0A1A8C9E76ECAC4AF88ACB69D4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E744E1B304181E1148C1125B439929 /* Pods-TYLinkLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYLinkLabel_Tests/Pods-TYLinkLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYLinkLabel_Tests/Pods-TYLinkLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5405CA8D3F2F091544C99945279A7B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F94478AFE3DEDC001DC6C0E132226E5 /* TYLinkLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYLinkLabel/TYLinkLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYLinkLabel/TYLinkLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYLinkLabel/TYLinkLabel.modulemap";
+				PRODUCT_MODULE_NAME = TYLinkLabel;
+				PRODUCT_NAME = TYLinkLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61601B610E1677CCA9A613F5E1913093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE1DE37A71F612B78FFD30BB9603532 /* Pods-TYLinkLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYLinkLabel_Example/Pods-TYLinkLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYLinkLabel_Example/Pods-TYLinkLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8C5C66FA5C3B2F85160BF4558DE04361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C2262E8A650A86EF531D9349EEF2D0 /* TYLinkLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYLinkLabel/TYLinkLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYLinkLabel/TYLinkLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYLinkLabel/TYLinkLabel.modulemap";
+				PRODUCT_MODULE_NAME = TYLinkLabel;
+				PRODUCT_NAME = TYLinkLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6A57441F996F25982B569E2C32F5AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAF70E44E02F9FCD753A2E6D23CD917 /* Pods-TYLinkLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYLinkLabel_Tests/Pods-TYLinkLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYLinkLabel_Tests/Pods-TYLinkLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFDF54E939FD3C86E69EE37A0689CB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F86A80E7B9B7836FD023BB94F5CF048 /* Pods-TYLinkLabel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYLinkLabel_Example/Pods-TYLinkLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYLinkLabel_Example/Pods-TYLinkLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC0C64E45E851599D2C25899D2C60C3 /* Build configuration list for PBXNativeTarget "Pods-TYLinkLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026A0A1A8C9E76ECAC4AF88ACB69D4C4 /* Debug */,
+				D6A57441F996F25982B569E2C32F5AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC0A8041DBDCF23A9101306DFAC7E74 /* Build configuration list for PBXNativeTarget "Pods-TYLinkLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61601B610E1677CCA9A613F5E1913093 /* Debug */,
+				DFDF54E939FD3C86E69EE37A0689CB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A92A6719DB68EA3A89D24E480E501B /* Build configuration list for PBXNativeTarget "TYLinkLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5C66FA5C3B2F85160BF4558DE04361 /* Debug */,
+				5405CA8D3F2F091544C99945279A7B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

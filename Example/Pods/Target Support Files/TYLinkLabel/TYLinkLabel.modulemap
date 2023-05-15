@@ -1,0 +1,6 @@
+framework module TYLinkLabel {
+  umbrella header "TYLinkLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

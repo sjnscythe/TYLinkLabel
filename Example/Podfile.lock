@@ -1,0 +1,16 @@
+PODS:
+  - TYLinkLabel (0.1.0)
+
+DEPENDENCIES:
+  - TYLinkLabel (from `../`)
+
+EXTERNAL SOURCES:
+  TYLinkLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TYLinkLabel: 672dd3ada5f38b2526a4ebca20b169d7adf81abe
+
+PODFILE CHECKSUM: 531acd3d548dc65a13064147d7408c28e3358a0e
+
+COCOAPODS: 1.12.0
