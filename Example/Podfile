@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TYLinkLabel_Example' do
+  pod 'TYLinkLabel', :path => '../'
+
+  target 'TYLinkLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
